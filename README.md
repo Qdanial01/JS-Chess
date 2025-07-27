@@ -40,7 +40,7 @@ This project consists of 4 main files:
 
 ## Known Issues
 
-- Currently, the **Queen** and **Rook** pieces do not move as expected. They are only able to move one tile straight, and any attempt to move them beyond one square returns an error in the console. Might work on it for a future update.
+- Currently, the **Queen** and **Rook** pieces do not move as expected. They are only able to move one tile straight, and any attempt to move them beyond one square returns an error in the console. Not actively attempting to fix it at the moment as this project is more of a platform to test integration of icons.
 
 ## Project Reference
 
