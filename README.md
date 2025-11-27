@@ -1,57 +1,32 @@
-# JS Chess
+# 🎮 JS Chess
+A simple chess game built with JavaScript, HTML and CSS, allowing you to move chess pieces on a board with drag-and-drop and valid-move checks.
 
-This is a simple chess game built with JavaScript. The game features the ability to move chess pieces on a board, drag them, and check for valid moves. It uses HTML, CSS, and JavaScript for its functionality.
+## 🛠️ Technology
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `SVG`
 
-## Project Overview
+## 🚀 Features
+- **Interactive chessboard layout** - an 8×8 board rendered dynamically using HTML and CSS
+- **Drag-and-drop movement** - move any chess piece by dragging and dropping on a valid square
+- **Valid-move checking** - each piece’s move is validated according to chess rules (within the implementation)
+- **Turn management** - enforces alternating turns between two players (Opponent is not AI)
+- **Full standard set of chess pieces** - King, Queen, Rook, Bishop, Knight and Pawn are all implemented
 
-This project consists of 4 main files:
+## 🧠 The Process
+I built JS Chess to get hands-on experience with DOM manipulation, drag-and-drop events, and implementing game logic directly in JavaScript. The idea was to create a playable chessboard from scratch using web basics. The board was defined using HTML/CSS. I used SVGs for piece graphics. Coded the logic for move validation and turn tracking manually. This approach helped me better understand how interactions, state management and user input handling work in a web context.
 
-- **`index.html`**: The base HTML page for the chess game interface.
-- **`style.css`**: The CSS file for styling the game, including the design, size, colors of the board and pieces, and tile configurations.
-- **`app.js`**: Contains the logic for initializing the game, setting up the pieces, managing piece movements, validating moves, checking for check and checkmate conditions, and managing player turns.
-- **`pieces.js`**: Holds the SVG links for all the chess pieces used in the game.
+Because I wanted the project to be lightweight and easy to test, I avoided build tools or complex dependencies and as such, everything runs in a browser. The structure stays simple: 
+- `HTML` - layout
+- `CSS` - visuals
+- `JavaScript` - logic
 
-## Features
+## 📦 Running the Project
+1. Clone or download the repository
+2. Open `index.html` in your preferred web browser (copy path and paste it in the browser)
+3. The game loads automatically there will not be additional setup required
+4. Start playing: drag pieces to move them, follow the rules, and enjoy
 
-- **Chessboard Layout**: The game board is visually represented using HTML and CSS. It consists of 8x8 squares, colored alternately.
-- **Piece Movement**: Each piece can be moved according to the rules of chess. The drag-and-drop functionality is implemented using JavaScript.
-- **Turn Management**: The game tracks whose turn it is, ensuring that players alternate between moves.
-- **Piece Types**: All standard chess pieces are available: King, Queen, Rook, Knight, Bishop, and Pawn.
-
-## How It Works
-
-1. **Board Setup**: Chessboard is instantly displayed with all its pieces placed on their initial positions.
-2. **Drag-and-Drop**: Pieces can be dragged across the board. The move is validated based on the type of piece being moved and the validity of the move.
-3. **Turn Tracking**: Each player takes turns, and only the correct player can make a move during their turn.
-4. **Validating Moves**: Each piece has its specific movement pattern, and the game checks if the move is valid.
-5. **Victory Check**: The game includes functionality to check if a player has won by checking if any one of the 2 kings is left standing.
-
-## Files Breakdown
-
-- **index.html**: This file serves as the interface for the game, holding the structure of the chessboard.
-- **style.css**: Contains the design specifications for the chessboard and pieces, such as color, size, and the arrangement of tiles.
-- **app.js**: This file manages the logic behind:
-  - Initializing the chess pieces
-  - Handling piece movement (including drag-and-drop)
-  - Validating moves according to chess rules
-  - Tracking whose turn it is
-  - Checking for checkmate and other end-game conditions
-- **pieces.js**: Contains SVG links for the chess pieces used in the game.
-
-## Known Issues
-
-- Currently, the **Queen** and **Rook** pieces do not move as expected. They are only able to move one tile straight, and any attempt to move them beyond one square returns an error in the console. Not actively attempting to fix it at the moment as this project is more of a platform to test integration of icons.
-
-## Project Reference
-
+## 🎯 Project Reference / Credits
 This project was built based on the tutorial by [CodewithAniaKubów](https://www.youtube.com/watch?v=Qv0fvm5B0EM&list=PL1xF_OoSJsKqAgWBjfBIg2Cwc2Fhqsa0L&index=4&ab_channel=CodewithAniaKub%C3%B3w). I highly recommend checking out the video for a deeper understanding of how the game was built.
-
-## How to Run
-
-To run this project locally:
-
-1. Clone the repository or download the files.
-2. Open `index.html` in your preferred web browser.
-
-No additional setup is required. The game will load automatically.
-
