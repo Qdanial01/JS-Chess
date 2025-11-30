@@ -28,5 +28,8 @@ Because I wanted the project to be lightweight and easy to test, I avoided build
 3. The game loads automatically there will not be additional setup required
 4. Start playing: drag pieces to move them, follow the rules, and enjoy
 
+## 🖼️ Preview
+https://github.com/user-attachments/assets/fc9c640b-6f01-4931-b6be-9706c98c4e98
+
 ## 🎯 Project Reference / Credits
 This project was built based on the tutorial by [CodewithAniaKubów](https://www.youtube.com/watch?v=Qv0fvm5B0EM&list=PL1xF_OoSJsKqAgWBjfBIg2Cwc2Fhqsa0L&index=4&ab_channel=CodewithAniaKub%C3%B3w). I highly recommend checking out the video for a deeper understanding of how the game was built.
